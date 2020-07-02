@@ -1,0 +1,3 @@
+#!/bin/rc
+portmk -m CC=$"CC -m CFLAGS=$"CFLAGS -m CPPFLAGS=$"CPPFLAGS \
+    -m LDFLAGS=$"LDFLAGS autohell install

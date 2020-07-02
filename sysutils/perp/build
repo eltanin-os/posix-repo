@@ -1,0 +1,5 @@
+#!/bin/rc
+mkutils sed lasagna/Makefile \
+    -e 's/\(\t\)ar/\1$(AR)/g' \
+    -e 's/\(\t\)ranlib/\1$(RANLIB)/g'
+portmk -f nocppflags make install

@@ -1,0 +1,27 @@
+#!/bin/rc
+switch ($LDFLAGS) {
+case *'-static'*
+	static=1
+case *
+	static=0
+}
+cat <<EOF >configure.local
+AR="$AR"
+CC="$CC"
+CFLAGS="$CFLAGS"
+LDFLAGS="$LDFLAGS"
+PREFIX="$PREFIX"
+BINDIR="$BINDIR"
+SBINDIR="$BINDIR"
+INCLUDEDIR="$INCDIR"
+LIBDIR="$LIBDIR"
+MANDIR="$MANDIR"
+STATIC="$static"
+OSNAME="$OS"
+INSTALL_PROGRAM="$INSTALL -m 0755"
+UTF8_LOCALE="$LOCALE"
+LN="ln -sf"
+EOF
+mkutils sed Makefile 's/\(\t\)ar/\1$(AR)/g'
+./configure
+portmk make install

@@ -1,0 +1,8 @@
+#!/bin/rc
+cd wpa_supplicant
+cp defconfig .config
+mkutils sed .config \
+    -e 's/#CONFIG_WPS=y/CONFIG_WPS=y/' \
+    -e 's/#CONFIG_LIBNL20=y/CONFIG_LIBNL20=y/'
+CPPFLAGS=($CPPFLAGS -DLIBNL1_COMPAT)
+portmk -f nocppflags -m CONFIG_LIBNL_TINY=y make install

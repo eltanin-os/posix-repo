@@ -1,0 +1,8 @@
+#!/bin/rc
+mkutils sed Makefile \
+    -e 's/\/libnl-tiny\/%/\/%/g' \
+    -e 's/prefix/PREFIX/g' \
+    -e 's/libdir/LIBDIR/g' \
+    -e 's/includedir/INCDIR/g'
+CPPFLAGS=($CPPFLAGS -DGENL_ID_GENERATE=0)
+portmk -m ALL_LIBS=libnl-tiny.a make all install

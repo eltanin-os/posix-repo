@@ -1,0 +1,6 @@
+#!/bin/rc
+CFLAGS=($CFLAGS -D__STDC_ISO_10646__)
+portmk autohell install
+mkutils install lib -l libedit.a libreadline.a
+mkutils install lib -l ../editline/readline.h readline.h
+mkutils install inc -e readline/history.h readline/tilde.h

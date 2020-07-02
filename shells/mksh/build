@@ -1,0 +1,11 @@
+#!/bin/rc
+chmod +x Build.sh
+@{ mkdir build_mksh
+cd build_mksh
+mkutils env ../Build.sh }
+@{ mkdir build_lksh
+cd build_lksh
+CPPFLAGS=($CPPFLAGS -DMKSH_BINSHPOSIX -DMKSH_BINSHREDUCED -DMKSH_SMALL -DMKSH_LEGACY)
+mkutils env ../Build.sh -L }
+mkutils install bin build_mksh/mksh build_lksh/lksh
+mkutils install man1 lksh.1 mksh.1

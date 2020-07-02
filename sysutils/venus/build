@@ -1,0 +1,3 @@
+#!/bin/rc
+CFLAGS=($CFLAGS -fno-builtin)
+portmk -f replace make install

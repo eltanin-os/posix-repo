@@ -1,0 +1,2 @@
+#!/bin/rc
+portmk -f replace make install

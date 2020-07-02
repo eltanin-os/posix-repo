@@ -1,0 +1,11 @@
+#!/bin/rc
+mkutils sed configure \
+    -e 's/-\*) as_fn_error $?/-\*) as_echo $?/g' \
+    -e 's/LIBS="-lcurl/LIBS="-lcurl -lssl -lcrypto -lz /g'
+portmk \
+    -f autohell \
+    -f nobuilddir \
+    -m --with-openssl \
+    -m --without-tcltk \
+    -m --without-expat \
+    autohell install

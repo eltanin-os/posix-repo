@@ -1,0 +1,19 @@
+name:curl
+version:7.69.1
+license:MIT
+description:A tool for transferring data from URLs.
+cksum:e89d044f31b35f9d0fe1b31f01d2acfe420497a74b3610a7dafc9b1fb63a5825ce2e348bb0c95ddcc96fab6515de7f154ef1a8bd7526c0dddbd416d3efaf4150
+patches{
+	curl-tools_check.patch
+}
+mirrors{
+	http://curl.haxx.se/download/curl-$version.tar.xz
+}
+rdeps{
+	ca-certificates#*
+}
+mdeps{
+	libc
+	libressl
+	libz
+}

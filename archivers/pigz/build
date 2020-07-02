@@ -1,0 +1,4 @@
+#!/bin/rc
+portmk -f make -f nocppflags -f replace make pigz
+mkutils install bin pigz
+mkutils install man1 pigz.1

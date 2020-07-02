@@ -1,0 +1,12 @@
+name:mksh
+version:R57
+license:MirOS
+description:An enhanced version of the public domain ksh.
+cksum:41b313b7c77ac191aae36357d45d099e1e0cc9f1b107275c1b444dd75fefc069c1dbe9650da382d9c116f7681d3aaf903686b28d82ca6842679e41faef721cef
+src=$name
+mirrors{
+	http://www.mirbsd.org/MirOS/dist/mir/mksh/mksh-$version.tgz
+}
+mdeps{
+	libc
+}

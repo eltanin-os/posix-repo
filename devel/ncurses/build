@@ -1,0 +1,4 @@
+#!/bin/rc
+mkutils sed GNUmakefile 's/INSTALL ?=/INSTALL =/'
+portmk make all-static install-static
+mkutils install inc -l . ncursesw
