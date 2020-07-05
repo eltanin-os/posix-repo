@@ -1,2 +1,2 @@
 #!/bin/rc
-portmk -m --with-edit=bsd autohell install
+portmk -m --with-edit'='bsd autohell install

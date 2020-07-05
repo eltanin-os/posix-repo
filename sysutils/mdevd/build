@@ -1,4 +1,4 @@
 #!/bin/rc
 SYSDEPSPATH=$"PORTSYS_SYSPATH/lib/skalibs/sysdeps
 if (! test -e $"SYSDEPSPATH) SYSDEPSPATH=$"PORTSYS_ROOTPWD/lib/skalibs/sysdeps
-portmk -f nobuilddir -m --with-sysdeps=$"SYSDEPSPATH autohell install
+portmk -f nobuilddir -m --with-sysdeps'='$SYSDEPSPATH autohell install
