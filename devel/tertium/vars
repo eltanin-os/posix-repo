@@ -1,8 +1,8 @@
 name:tertium
-version:0.6.1
+version:0.7.0
 license:UNLICENSE
 description:Eltanin system programming library.
-cksum:c5378cbd272d851ee3669e708141864880cc5096bcff4d34de009fe3427494a38c3ac7add5b7cb323653b57cda4404040e19a766caf37e171f79f1dc11d93c98
+cksum:c666437dbcf5941abf121f38aa481b2b22697e87a5d43d69675352d6a5bc89fe88b68233c3ac032cf81e45ad0633cc0718f8e9b61fe0b844a5db721f6a81afa4
 mirrors{
 	http://downloads.eltan.in.net/files/tertium/tertium-$version.tar.lz
 }
