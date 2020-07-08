@@ -1,10 +1,10 @@
 name:pkgconf
-version:1.6.3
+version:1.7.3
 license:custom
 description:A package compiler and linker metadata toolkit.
-cksum:31c2887c3b39ae1a3d224de7f94220f40c4a18e05b955d097f0726c4e9349f73645884b61d7d507b5cdd0a879782db391ae768038af46ecd03d5553e44a16cb2
+cksum:6d8be4f7cdb27469082f8354234b846af83ae082e3ac3c077c0b9e1c547a4bd5d96228f0a4a931146233355b2b7fdb2f1725a0f06e99b6e1366920e50516cbc0
 mirrors{
-	http://distfiles.dereferenced.org/pkgconf/pkgconf-$version.tar.gz
+	http://distfiles.dereferenced.org/pkgconf/pkgconf-$version.tar.xz
 }
 mdeps{
 	libc
