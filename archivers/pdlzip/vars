@@ -1,8 +1,8 @@
 name:pdlzip
-version:1.9
+version:1.10
 license:PUBLIC_DOMAIN BSD-2
 description:A lossless data compressor.
-cksum:9dce03f718a61f432a5f34b0df9778c3872475fe89eced48bbf2372993e0f8e728fe40549a926d74adfb34db7f0d2aebaf7036f0854f809849718d8f9a218bb8
+cksum:0775f874bc50143b59b710f4c70f5d022ecfec20283e9f61c00a86bb85a1e18892609ec0a662e855def30cca2e3e379f0df155129715deace5b8aea6f5092335
 mirrors{
 	https://download.savannah.gnu.org/releases/lzip/pdlzip/pdlzip-$version.tar.lz
 }
