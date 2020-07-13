@@ -1,0 +1,4 @@
+#!/bin/rc
+portmk -f nobuilddir autohell
+portmk -m '-Csrc/libFLAC' make install
+portmk -m '-Cinclude' make install
