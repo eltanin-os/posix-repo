@@ -1,3 +1,0 @@
-#!/bin/rc
-mkutils sed Makefile 's/@ranlib/@$(RANLIB)/g'
-portmk -f replace make install
