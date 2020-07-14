@@ -1,4 +1,5 @@
 #!/bin/rc
-portmk -f nobuilddir autohell
+portmk autohell
+@{ cd $PORTSYS_TMP_BUILDDIR
 portmk -m '-Csrc/libFLAC' make install
-portmk -m '-Cinclude' make install
+portmk -m '-Cinclude' make install }
