@@ -1,13 +1,13 @@
 name:htop
-version:2.2.0
+version:3.0.2
 license:GPL-2
 description:An interactive process viewer.
-cksum:d8fbb22890948cb2e2134691e5d97629f2eb424fe29fb70a2e0e73ffe3c39ff29e5b42bd8b9c21be92e7afe642ff7ab5076d034d12f805b1d100fa273369dee2
+cksum:2a7ae500847222413fb6c970987f4e9317e756d01c4f8afbd2710baadf6a2acb796462afa0afbde9bfe0903cc31342d60013c222879beff616a455545fd627a2
 patches{
 	htop-netbsd_curses_compat.patch
 }
 mirrors{
-	http://hisham.hm/htop/releases/$version/htop-$version.tar.gz
+	https://dl.bintray.com/htop/source/htop-$version.tar.gz
 }
 mdeps{
 	ncurses
