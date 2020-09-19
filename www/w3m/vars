@@ -4,11 +4,14 @@ license:MIT UCD
 description:WWW browsable pager.
 cksum:923634a1ae89ca3538519a2abccee1ffcaecd4726fb1a9f9af61dcf0eb03aef19f697f54d7751d5399b68ebd3beec613a5ee407bd4020383d1ae66095c0eb864
 src:w3m-0.5.3-git20190105
+patches{
+	w3m-remove_hardcheck.patch
+}
 mirrors{
 	https://github.com/tats/w3m/archive/v$version.tar.gz
 }
 mdeps{
-	gc
+	boehm-gc
 	libc
 	libressl
 }
