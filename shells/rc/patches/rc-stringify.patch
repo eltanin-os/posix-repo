@@ -1,0 +1,14 @@
+diff -Naur a/unix.c b/unix.c
+--- a/unix.c	2020-09-19 23:22:18.838902576 -0300
++++ b/unix.c	2020-09-21 15:24:08.138770038 -0300
+@@ -16,7 +16,9 @@
+ #include <assert.h>
+ #include <limits.h>
+ 
+-char *Rcmain = PREFIX "/lib/rcmain";
++#define STRINGIFY(x) #x
++
++char *Rcmain = STRINGIFY(PREFIX) "/lib/rcmain";
+ char *Fdprefix = "/dev/fd/";
+ 
+ void execfinit(void);

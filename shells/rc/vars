@@ -1,10 +1,14 @@
 name:rc
-version:ceb59bb2a644f4ebc1645fe15f1063029579fa7c
-license:zlib
+version:git-50b729e65d6f250ab9ab72487bd3c3d7c674e1fc
+license:lucent-v1.02
 description:An alternative implementation of the plan 9 rc shell
-cksum:e2c061a410d9ea5de8d2f2d516fb3427d3527019ca4d638e11570480ced5ddc5a367e291ef94c64fec81e89fcefb84cae96a39eab9f88c415d3c46c8287d7adf
+cksum:f6dabb46eb1fb62b3bb9727975d6d287e1122a178f276d9139714d2aff5015baa26790cee18fa43a19573340226d4a9c341c3dff00d99b222651741ae9887fe5
+patches{
+	rc-makefile.patch
+	rc-stringify.patch
+}
 mirrors{
-	http://downloads.eltan.in.net/mirrors/rc-$version.tar.gz
+	http://downloads.eltan.in.net/mirrors/rc-$version.tar.lz
 }
 mdeps{
 	libc

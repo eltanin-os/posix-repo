@@ -1,2 +1,3 @@
 #!/bin/rc
-portmk -m --with-edit'='bsd autohell install
+LDLIBS=(-lcurses)
+portmk -f replace make install

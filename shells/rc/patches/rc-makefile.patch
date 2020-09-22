@@ -1,0 +1,36 @@
+diff -Naur a/Makefile b/Makefile
+--- a/Makefile	2020-09-19 23:22:18.828902576 -0300
++++ b/Makefile	2020-09-22 11:26:24.968703694 -0300
+@@ -34,10 +34,10 @@
+ all: $(TARG)
+ 
+ $(TARG): $(OFILES)
+-	$(CC) $(ARCHS) -o $(TARG) $(OFILES) $(LFLAGS)
++	$(CC) $(LDFLAGS) $(ARCHS) -o $(TARG) $(OFILES) $(LFLAGS) $(LDLIBS)
+ 
+ %.$O: %.c $(HFILES)
+-	$(CC) $(ARCHS) $(CFLAGS) -c $*.c
++	$(CC) $(ARCHS) $(CFLAGS) $(CPPFLAGS) -c $*.c
+ 
+ y.tab.h y.tab.c: $(YFILES)
+ 	$(YACC) $(YFLAGS) $(YFILES)
+@@ -46,12 +46,15 @@
+ 	cmp -s x.tab.h y.tab.h || cp y.tab.h x.tab.h
+ 
+ install: all rcmain.unix rc.1
+-	install -m 755 $(TARG) $(PREFIX)/bin
+-	install -m 644 rcmain.unix	$(PREFIX)/lib/rcmain
+-	install -m 644 rc.1 $(PREFIX)/share/man/man1
++	install -d $(DESTDIR)$(PREFIX)/bin
++	install -m 755 $(TARG) $(DESTDIR)$(PREFIX)/bin
++	install -d $(DESTDIR)$(PREFIX)/lib
++	install -m 644 rcmain.unix	$(DESTDIR)$(PREFIX)/lib/rcmain
++	install -d $(DESTDIR)$(PREFIX)/share/man/man1
++	install -m 644 rc.1 $(DESTDIR)$(PREFIX)/share/man/man1
+ 
+ %: %.c $(HFILES)
+-	$(CC) $(ARCHS) -o $@ $< $(LFLAGS)
++	$(CC) $(LDFLAGS) $(ARCHS) -o $@ $< $(LFLAGS) $(LDLIBS)
+ 
+ clean:
+ 	rm -f $(TARG) *.$O $(CLEANFILES)
