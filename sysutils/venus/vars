@@ -1,8 +1,8 @@
 name:venus
-version:0.6.1
+version:0.7.0
 license:UNLICENSE
 description:A simple package manager.
-cksum:98c03d92588f5cd66dbec8b4462314e6c5155a6dc23fafd5e25c774f7b63f2558b20fff0b9a0b283592d01056da994dd30a7c1456c0ce6fb4e8189a6a8c3a8eb
+cksum:ab848b82a9db2c20fdb61676b2544206e03d92eddbcc58b216d765364c24853bc568b39e1ea0ad26e2624e8420095939e41bafdaf7ff24939af5d046b911ed4d
 mirrors{
 	http://downloads.eltan.in.net/files/venus/venus-$version.tar.lz
 }
