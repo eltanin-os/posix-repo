@@ -1,8 +1,8 @@
 name:dhcpcd
-version:9.1.4
+version:9.2.0
 license:BSD-2
 description:RFC2131 compliant DHCP client daemon.
-cksum:4aad546cff360343ba99d9c7def111269892442a117f16d8a6f848c7282b032aa045f3c10144eb2e3c190bf13f0611284e9ee6e97e71e5e65599d935fc189e74
+cksum:0ba344515a0cb88936a6d4347cd95e63e0238ebd9b03a8af2c47488f5f8859b27958d53ea45052ec23d4c263d798635080a0efc21d9d075269220b98c5f7b643
 mirrors{
 	https://roy.marples.name/downloads/dhcpcd/dhcpcd-$version.tar.xz
 }
