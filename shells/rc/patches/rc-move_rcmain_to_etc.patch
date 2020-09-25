@@ -1,0 +1,12 @@
+diff -Naur a/unix.c b/unix.c
+--- a/unix.c	Fri Sep 25 18:59:06 2020
++++ b/unix.c	Fri Sep 25 19:35:00 2020
+@@ -16,7 +16,7 @@
+ #include <assert.h>
+ #include <limits.h>
+ 
+-char *Rcmain = PREFIX "/lib/rcmain";
++char *Rcmain = RC_PREFIX "/lib/rcmain";
+ char *Fdprefix = "/dev/fd/";
+ 
+ void execfinit(void);

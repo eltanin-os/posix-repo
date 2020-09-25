@@ -1,6 +1,6 @@
 diff -Naur a/Makefile b/Makefile
---- a/Makefile	2020-09-19 23:22:18.828902576 -0300
-+++ b/Makefile	2020-09-22 11:26:24.968703694 -0300
+--- a/Makefile	Fri Sep 25 18:59:06 2020
++++ b/Makefile	Fri Sep 25 19:33:15 2020
 @@ -34,10 +34,10 @@
  all: $(TARG)
  
@@ -23,8 +23,8 @@ diff -Naur a/Makefile b/Makefile
 -	install -m 644 rc.1 $(PREFIX)/share/man/man1
 +	install -d $(DESTDIR)$(PREFIX)/bin
 +	install -m 755 $(TARG) $(DESTDIR)$(PREFIX)/bin
-+	install -d $(DESTDIR)$(PREFIX)/lib
-+	install -m 644 rcmain.unix	$(DESTDIR)$(PREFIX)/lib/rcmain
++	install -d $(DESTDIR)$(PREFIX)/etc
++	install -m 644 rcmain.unix $(DESTDIR)$(PREFIX)/etc/rcmain
 +	install -d $(DESTDIR)$(PREFIX)/share/man/man1
 +	install -m 644 rc.1 $(DESTDIR)$(PREFIX)/share/man/man1
  
