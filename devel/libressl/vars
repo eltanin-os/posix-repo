@@ -1,8 +1,8 @@
 name:libressl
-version:3.1.3
+version:3.2.1
 license:openssl
 description:Is a fork of, and drop in replacement for OpenSSL.
-cksum:f0e57a6281aebb9cc9f1d81f7c866b1a08da058ff2740f4564705bf6e9802356255a4d8e783b90f556030bce0303c4527c14d2754c9b6e9fd03d058ddd16889f
+cksum:e5871d341785810e29e29be6a2e9f55d9f078783abef1b35e7be6ebf6ff00fd3894c0f7f855d14b4b2594e018c85d0b58afce015c9a9e693c9bd03d7b0351b80
 mirrors{
 	http://ftp.openbsd.org/pub/OpenBSD/LibreSSL/libressl-$version.tar.gz
 }
