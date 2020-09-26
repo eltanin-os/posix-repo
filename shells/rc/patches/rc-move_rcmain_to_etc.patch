@@ -6,7 +6,7 @@ diff -Naur a/unix.c b/unix.c
  #include <limits.h>
  
 -char *Rcmain = PREFIX "/lib/rcmain";
-+char *Rcmain = RC_PREFIX "/lib/rcmain";
++char *Rcmain = RC_PREFIX "/etc/rcmain";
  char *Fdprefix = "/dev/fd/";
  
  void execfinit(void);
