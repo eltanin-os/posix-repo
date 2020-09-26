@@ -1,10 +1,10 @@
 name:ca-certificates
-version:20190305
+version:20200601
 license:GPL-2+ MPL-2
 description:Common CA certificates for SSL/TLS.
-cksum:fea666283c135d3521ee955b242b24fd236e8d8f6595101a755d9b13c8a44018a7e873d0fe80e41e16b989e7baedfe1a86634cadc579b39b99e8465d5bdb0854
+cksum:333c3b14cccc6516df9ebd130d5112753600b10524588be5fef831ef4809418c469f51639b259da1856ef885d397b4b87d0e7649b31ba2ed095a0c0abd10d4c3
 mirrors{
-	http://downloads.eltan.in.net/mirrors/ca-certificates-$version.tar.gz
+	http://downloads.eltan.in.net/mirrors/ca-certificates-$version.tar.lz
 }
 rdeps{
 	coreutils#*
