@@ -1,0 +1,10 @@
+#!/bin/rc
+STATIC_FLAG=()
+if (~ ' '$"LDFLAGS' ' *' -static '*) STATIC_FLAG=(-m --enable-static-link)
+portmk \
+    -m --disable-nls \
+    -m --enable-readline \
+    -m --without-bash-malloc \
+    -m --with-installed-readline \
+    $STATIC_FLAG \
+    autohell install

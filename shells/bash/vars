@@ -1,0 +1,12 @@
+name:bash
+version:5.0
+license:GPL-3+
+description:The GNU Bourne Again shell.
+cksum:d45eb5a21ea941fbb2bfb6381e5fbcad2081322acb976605642d341e5daaacf7d8dcb87f1cbebfb908afdc21889098eb412dca00ac8f0872a22e02d525f6c33a
+mirrors{
+	https://ftp.gnu.org/gnu/bash/bash-$version.tar.gz
+}
+mdeps{
+	libc
+	libedit
+}
