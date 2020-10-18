@@ -1,0 +1,5 @@
+#!/bin/rc
+mkutils sed configure -e 's/?).*;;/?) true ;;/g' -e 's/* ).*;;/* ) true ;;/g'
+portmk -f nobuilddir autohell
+portmk make
+portmk make install

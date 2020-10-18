@@ -1,0 +1,12 @@
+name:bc
+version:3.1.6
+license:BSD-2
+description:An implementation of Unix dc and POSIX bc with GNU and BSD extensions.
+cksum:59d6f795e82cbea6b7a32c262cab54874fb6bde2783f2af0df9b1f5894c344d568d0161b5291b43d205139b6d874ff320bc79de0004fd840adf714ba5b0e2180
+src:$name
+mirrors{
+	https://git.yzena.com/gavin/bc/archive/$version.tar.gz
+}
+mdeps{
+	libc
+}
