@@ -1,0 +1,2 @@
+#!/bin/rc
+portmk -m --enable-libgdbm-compat autohell install
