@@ -1,8 +1,8 @@
 name:ecore
-version:0.7.2
+version:0.8.0
 license:UNLICENSE
 description:Eltanin core utilities.
-cksum:f453eb721b9812aa07f35b1032852bdc0e83999ef554d6de8b3a6e381201198bbcc081f8ac3beba4cfaf0390e2421a74537497086807e8c930dc7ac05a33c82e
+cksum:923ef84ebfe3f3b00286c367044cbf08e4ec31499b027d27ef26e2c7d0213f7650fe9aa97a395fdfdfbce485539690d58db0ddab80b0aa29922abc134064af91
 mirrors{
 	http://downloads.eltan.in.net/files/ecore/ecore-$version.tar.lz
 }
