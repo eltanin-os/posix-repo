@@ -10,4 +10,3 @@ portmk \
 mkdir .$DRTDIR
 mv docs .$DRTDIR/doc
 chmod 0755 .$BINDIR/* }
-
