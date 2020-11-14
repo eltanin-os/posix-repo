@@ -1,3 +1,2 @@
 #!/bin/rc
-portmk make
-portmk make install
+portmk autohell install
