@@ -2,3 +2,7 @@
 mkutils sed GNUmakefile 's/INSTALL ?=/INSTALL =/'
 portmk make all-static install-static
 mkutils install inc -l . ncursesw
+mkutils install lib -l libcurses.a libncurses.a
+if (test -e $DESTDIR$LIBDIR/libcurses.so) mkutils install lib -l libcurses.so libncurses.so
+$AR rc libterminfo.a
+mkutils install lib libterminfo.a
