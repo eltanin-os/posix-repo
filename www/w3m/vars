@@ -12,6 +12,7 @@ mirrors{
 }
 mdeps{
 	boehm-gc
+	ncurses
 	libc
 	libressl
 }
