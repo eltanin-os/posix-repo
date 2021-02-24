@@ -4,4 +4,4 @@ portmk \
     -m --with-openssl \
     -m --without-tcltk \
     -m --without-expat \
-    autohell install LIBCURL'= -lcurl -lssl -lcrypto -lz'
+    autohell install NO_GETTEXT'='1 LIBCURL'= -lcurl -lssl -lcrypto -lz'
