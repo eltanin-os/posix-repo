@@ -1,0 +1,11 @@
+name:heirloom-doctools
+version:191015
+license:CDDL-1.1
+description:The Heirloom Documentation Tools.
+cksum:e68eb99733305d8bfc9b2f9b337c216a8caf92ad943e6a7f9ce3444005ef946fdc1f4b736724d8b1876d7449089ee3d20df0172ddf08124661dd76bf459d95df
+mirrors{
+	https://github.com/n-t-roff/heirloom-doctools/releases/download/$version/heirloom-doctools-$version.tar.bz2
+}
+mdeps{
+	libc
+}

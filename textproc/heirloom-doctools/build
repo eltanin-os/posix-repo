@@ -1,0 +1,27 @@
+#!/bin/rc
+# remove c++ dep
+mkutils sed makefile '/mpm/d'
+mkutils sed troff/troff.d/tmac.d/Makefile.mk 's/pm//'
+
+nprocs=1 # build doesn't work in parallel
+make mrproper
+./configure
+
+# LIBDIR set as DRTDIR because the files aren't libraries (.a nor .so)
+V=(                                                            \
+   LIBDIR'='$"DRTDIR/heirloom-doctools                         \
+   PUBDIR'='$"DRTDIR/heirloom-doctools/pub                     \
+   MACDIR'='$"DRTDIR/heirloom-doctools/tmac                    \
+   FNTDIR'='$"DRTDIR/heirloom-doctools/font                    \
+   PSTDIR'='$"DRTDIR/heirloom-doctools/font/devpost/postscript \
+   TABDIR'='$"DRTDIR/heirloom-doctools/nterm                   \
+   HYPDIR'='$"DRTDIR/heirloom-doctools/hyphen                  \
+   REFDIR'='$"DRTDIR/heirloom-doctools/reftools                \
+)
+
+portmk make -j1 $V
+portmk make install -j1 ROOT'='$"DESTDIR $V
+
+# fix mandoc conflict
+mkutils install man1 -d soelim.1
+mkutils install man7 -d man.7 mdoc.7
