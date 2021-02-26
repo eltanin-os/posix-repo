@@ -1,8 +1,8 @@
 name:gdbm
-version:1.18.1
+version:1.19
 license:GPL-3+
 description:GNU database routines.
-cksum:ccba760ef60c625545dffd33607dc05d864c3a0afe8508b812d1e551690eb48aa8931560b53a46a3d946c6bffae0d49eb06b1b00069583ddebe41149984e0173
+cksum:02d3c81428e6d72310378d536fe18a944dc80e05989296a036737dc7a62105fd110e09c8cb31e3d7ffc61c040408a3db92c489b69d47303214ff02adc45a1f6f
 mirrors{
 	https://ftp.gnu.org/gnu/gdbm/gdbm-$version.tar.gz
 }
