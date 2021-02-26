@@ -1,8 +1,8 @@
 name:oksh
-version:6.7.1
+version:6.8.1
 license:BSD-3
 description:Portable OpenBSD ksh, based on the Public Domain KornShell (pdksh).
-cksum:52f9b17e85dcf60cc9a451b46762f77e14c72cdcbe0d6ca554182dacbc5cc7de3fd5fcebceab1b643eb95c3d34c838aab4c49e225d8581658e110a275bb9b657
+cksum:ed2feddb0d37b75500c5000f9dcffbc87d020c52f5f82733c516771f24a1b0b9ee08f92a4332ba92b6af5494e2461c0cce54feffd934a771bfdad01ae8d418c7
 src:oksh-oksh-$version
 mirrors{
 	https://github.com/ibara/oksh/archive/oksh-$version.tar.gz
