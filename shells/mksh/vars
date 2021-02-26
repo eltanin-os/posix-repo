@@ -1,8 +1,8 @@
 name:mksh
-version:R59b
+version:R59c
 license:MirOS
 description:An enhanced version of the public domain ksh.
-cksum:ab4b0e8904facae06b50ceceddff516831f823f4a345543a50ec1e1c6d9f6d7b649f827b702abb84e4fc456adb502d633f56ceeb91b6cfc136e69846477f3461
+cksum:7faee407448dfac2841ad6ebde008522b2613b092792482ff99e684c469c547377194cf1068bbf301c83ce19bc97a2f401cf2e2bf4d9deead8270a0d116d448f
 src:$name
 mirrors{
 	http://www.mirbsd.org/MirOS/dist/mir/mksh/mksh-$version.tgz
