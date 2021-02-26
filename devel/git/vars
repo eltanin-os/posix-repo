@@ -1,8 +1,8 @@
 name:git
-version:2.28.0
+version:2.30.1
 license:GPL-2
 description:A fast, scalable, distributed revision control system.
-cksum:fa8c70980f62f108b508e8ec1697046865f427b1a19c740dd8254e3f1e0b0aea50278c6a36450241b5c625ff08a70acf8cfe19a29af40bb29499a00ddf17b620
+cksum:788c998aefad11e88969038a814fa804bf02a97f97ab19fea5e3b33f965b7e73c35169e45908941b4a514ac3603cabe3f4f9938cec1b53c5bf71c27c70050eb1
 mirrors{
 	https://www.kernel.org/pub/software/scm/git/git-$version.tar.xz
 }
