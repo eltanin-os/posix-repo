@@ -1,8 +1,8 @@
 name:dash
-version:0.5.11.2
+version:0.5.11.3
 license:BSD-3
 description:A POSIX compliant shell that aims to be as small as possible.
-cksum:f1519e6a2b95758dafb7a4f996d11b592fd13083840f26317c778384af5c2a86eb87507b762a4b4f789c05e62e7fb2b06f677029836ec5f0c3f55de3096a3dbf
+cksum:05a1a0f15a88269f9c3df46be9339d2a0c57a42c39d4a55c2ee77dadeb7338c9a5dd5209733efa57ec178866b8ae36fb3c31e2675037d4838717ce6e474eb249
 mirrors{
 	http://gondor.apana.org.au/~herbert/dash/files/dash-$version.tar.gz
 }
