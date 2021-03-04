@@ -1,6 +1,6 @@
 name:pkgconf
 version:1.7.3
-license:custom
+license:CUSTOM
 description:A package compiler and linker metadata toolkit.
 cksum:6d8be4f7cdb27469082f8354234b846af83ae082e3ac3c077c0b9e1c547a4bd5d96228f0a4a931146233355b2b7fdb2f1725a0f06e99b6e1366920e50516cbc0
 mirrors{
