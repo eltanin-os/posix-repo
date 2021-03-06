@@ -12,4 +12,5 @@ mdeps{
 	libressl
 	libvorbis
 	libz
+	SDL2
 }
