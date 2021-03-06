@@ -1,0 +1,3 @@
+#!/bin/rc
+portmk make install
+mkutils install bin -l luajit-2.1.0-beta3 luajit
