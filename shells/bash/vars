@@ -3,6 +3,7 @@ version:5.1
 license:GPL-3+
 description:The GNU Bourne Again shell.
 cksum:5df6f36dd03b1587c5a826985be29d6532931ed20d3b1cba506f15cb7538b2128aa7b6f186e7a8b867088dbaa60cc233c619a047ff46f271e1c6d3ebca905c5e
+patch-level:0
 patches{
 	bash51-001.patch
 	bash51-002.patch
