@@ -1,4 +1,5 @@
 #!/bin/rc
+CFLAGS=($CFLAGS -fcommon)
 CPPFLAGS=($CPPFLAGS -DRC_PREFIX'="'$"PREFIX'"')
 LDLIBS=(-lcurses -lterminfo)
 portmk -f replace make install
