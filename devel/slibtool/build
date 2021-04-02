@@ -1,0 +1,4 @@
+#!/bin/rc
+ccenv_cpp_prefix=$CXX
+mkutils env ./configure
+portmk make install

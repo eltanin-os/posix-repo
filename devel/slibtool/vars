@@ -1,0 +1,11 @@
+name:slibtool
+version:0.5.32
+license:MIT
+description:Surrogate libtool implementation written in C.
+cksum:76ecb062648204b9ee5852eaa514cb878563e7f9b577a3a90a7f2610443ddfcec8731eb0d6a1e574d42d3866baf72b0aa31ce10479140e80d13c2eea3a00aeda
+mirrors{
+	https://midipix.org/dl/slibtool/slibtool-$version.tar.xz
+}
+mdeps{
+	libc
+}
