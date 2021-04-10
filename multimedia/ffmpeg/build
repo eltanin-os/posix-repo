@@ -1,10 +1,10 @@
 #!/bin/rc
-if (~ ' '$"LDFLAGS' ' *' -static '*) V=(-m '--pkg-config-flags=--static')
+if ($static) V=(-m '--pkg-config-flags=--static')
 mkutils sed configure 's/die_unknown(){/die_unknown(){ true; }; dummy_func(){/g'
 portmk \
     -m --enable-libvorbis \
     -m --enable-libopus \
     -m --enable-libtls \
-    -m --eanble-zlib \
+    -m --enable-zlib \
     $V \
     autohell install

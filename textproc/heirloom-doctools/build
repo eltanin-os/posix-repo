@@ -19,9 +19,9 @@ V=(                                                            \
    REFDIR'='$"DRTDIR/heirloom-doctools/reftools                \
 )
 
-CFLAGS=($CFLAGS -fcommon)
-portmk make -j1 $V
-portmk make install -j1 ROOT'='$"DESTDIR $V
+CFLAGS=$"CFLAGS' -fcommon'
+portmk make $V
+portmk make install ROOT'='$"DESTDIR $V
 
 # fix mandoc conflict
 mkutils install man1 -d soelim.1

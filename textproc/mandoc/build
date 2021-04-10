@@ -1,10 +1,5 @@
 #!/bin/rc
-switch ($LDFLAGS) {
-case *'-static'*
-	static=1
-case *
-	static=0
-}
+if ($static) static=1; if not static=0
 cat <<EOF >configure.local
 AR="$AR"
 CC="$CC"

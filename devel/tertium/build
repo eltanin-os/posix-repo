@@ -1,10 +1,6 @@
 #!/bin/rc
-CFLAGS=($CFLAGS -fno-builtin)
-if (test -d sys/$PORTSYS_HOSTOS && \
-    test -f sys/$PORTSYS_HOSTOS/$PORTSYS_HOSTARCH.h.in && \
-    test -f sys/$PORTSYS_HOSTOS/$PORTSYS_HOSTARCH.s) {
-	mkutils sed config.mk \
-	    -e 's/^OSNAME.*/OSNAME='$"PORTSYS_HOSTOS'/g' \
-	    -e 's/^OBJTYPE.*/OBJTYPE='$"PORTSYS_HOSTARCH'/g'
-}
+CFLAGS=$"CFLAGS' -fno-builtin'
+mkutils sed config.mk \
+    -e 's/^OSNAME.*/OSNAME='$"PORTSYS_HOSTOS'/g' \
+    -e 's/^OBJTYPE.*/OBJTYPE='$"PORTSYS_HOSTARCH'/g'
 portmk -f replace make install
