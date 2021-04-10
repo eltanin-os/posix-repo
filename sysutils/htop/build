@@ -1,2 +1,3 @@
 #!/bin/rc
-portmk autohell install
+LIBS='-lcurses -lterminfo'
+portmk -m --disable-unicode autohell install
