@@ -1,0 +1,8 @@
+name:xcb-proto
+version:1.14.1
+license:MIT
+description:X.Org X11 protocol C binding protocol.
+cksum:f9e3ad1a6c7550c9f3351d726b3d160e9a7b9572dccaa7dc528c7e4f960417f573a319915e990398ce4a30b40b024e7b98f87f9174e01f17dfa9c42ca00713f4
+mirrors{
+	https://xorg.freedesktop.org/archive/individual/proto/xcb-proto-$version.tar.xz
+}
