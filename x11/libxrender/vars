@@ -1,0 +1,15 @@
+name:libxrender
+version:0.9.10
+license:CUSTOM
+description:X Rendering Extension client library.
+cksum:10b9460f3690a81b167190435589878b0953fbcbc385c1abf983d4b537831765cf10aa1eb1992fe426ee9230930fcea9c456b6e9001c160e6b08df5750ee4ccb
+src:libXrender-$version
+mirrors{
+	https://www.x.org/releases/individual/lib/libXrender-$version.tar.bz2
+}
+mdeps{
+	libc
+	libx11
+	xorg-proto
+	util-macros
+}
