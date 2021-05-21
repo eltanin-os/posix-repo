@@ -1,0 +1,9 @@
+name:xorg-macros
+version:1.19.2
+license:MIT
+description:X.Org X11 development aclocal macros.
+cksum:edc69792e5b5a45ef9dff4eb0f38861685140f88bc9d445c9183a7027dfc05ccff858dfe4de46674f846a7290f3e051a7ad0329860171da7976392ee61de6c3d
+src:util-macros-$version
+mirrors{
+	https://www.x.org/releases/individual/util/util-macros-$version.tar.bz2
+}
