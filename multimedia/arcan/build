@@ -1,0 +1,56 @@
+#!/bin/rc
+@{ cd src
+portmk cmake
+# manual install because 'cmake install' seems to fail when PREFIX is given
+@{ cd shmif
+INCDIR=$"INCDIR/arcan
+mkutils install inc arcan_tui_linewnd.h arcan_tui_readline.h arcan_tuisym.h \
+    arcan_tui_listwnd.h arcan_tui_bufferwnd.h arcan_tui.h arcan_tuidefs.h
+INCDIR=$"INCDIR/shmif
+mkutils install inc arcan_shmif.h arcan_shmif_sub.h arcan_shmif_control.h \
+    arcan_shmif_defs.h arcan_shmif_interop.h arcan_shmif_event.h \
+    arcan_shmif_server.h }
+cd $PORTSYS_TMP_BUILDDIR
+mkutils install bin afsrv_remoting arcan_xwm afsrv_game afsrv_terminal \
+    afsrv_net arcan_db arcan-net afsrv_encode arcan-wayland afsrv_avfeed \
+    arcan arcan_frameserver
+@{ cd a12
+mkutils install lib libarcan_a12.so libarcan_a12.so.0.1 }
+@{ LIBDIR=$"LIBDIR/pkgconfig
+mkutils install lib arcan-shmif-ext.pc arcan-shmif-tui.pc arcan-shmif.pc \
+    arcan-shmif-srv.pc }
+@{ cd shmif
+mkutils install lib libarcan_shmif_server.so.0.13 libarcan_shmif_ext.so \
+    libarcan_tui.so.0.13 libarcan_shmif_server.so libarcan_shmif_ext.so.0.13 \
+    libarcan_shmif_intext.so.0.13 libarcan_tui.so libarcan_shmif_intext.so \
+    libarcan_shmif.so.0.13 libarcan_shmif.so } }
+@{ cd doc
+mkutils install man1 arcan_db.1 arcan.1 }
+@{ cd src/wayland
+mkutils install man1 arcan-wayland.1 }
+@{ cd data
+DRTDIR=$"DRTDIR/arcan
+mkutils install drt appl/console/wayland_client.lua \
+    appl/console/console.lua \
+    appl/console/console_osdkbd.lua \
+    appl/console/cursor.png \
+    appl/welcome/welcome.lua \
+    resources/fonts/default.ttf \
+    resources/images/icons/arcanicon.svg \
+    resources/images/icons/arcanicon.png \
+    scripts/hook/alloc_debug.lua \
+    scripts/hook/shutdown.lua \
+    scripts/hook/timed_dump.lua \
+    scripts/hook/debugstall.lua \
+    scripts/hook/touch_simulator.lua \
+    scripts/hook/external_input.lua \
+    scripts/builtin/table.lua \
+    scripts/builtin/wayland.lua \
+    scripts/builtin/osdkbd.lua \
+    scripts/builtin/json.lua \
+    scripts/builtin/keyboard.lua \
+    scripts/builtin/debug.lua \
+    scripts/builtin/string.lua \
+    scripts/builtin/mouse.lua \
+    scripts/builtin/wmsupport.lua \
+    scripts/builtin/decorator.lua }
