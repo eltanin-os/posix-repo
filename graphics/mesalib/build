@@ -1,0 +1,17 @@
+#!/bin/rc
+_dri_drivers='r100,r200,nouveau,i915,i965'
+_gallium_drivers='nouveau,virgl,swrast'
+_vulkan_drivers='intel'
+portmk \
+    -m -Ddri-drivers'='$_dri_drivers \
+    -m -Dgallium-drivers'='$_gallium_drivers \
+    -m -Dvulkan-drivers'='$_vulkan_drivers \
+    -m -Dllvm'='disabled \
+    -m -Dplataforms'='x11,wayland \
+    -m -Dglx'='dri \
+    -m -Dopengl'='true \
+    -m -Dosmesa'='true \
+    -m -Dgles1'='enabled \
+    -m -Dgles2'='enabled \
+    -m -Degl'='enabled \
+    meson install

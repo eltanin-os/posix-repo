@@ -1,0 +1,23 @@
+name:mesalib
+version:21.0.2
+license:MIT SGI-B-2.0 BSL-1.0
+description:Mesa DRI OpenGL library.
+cksum:6199ecefaff27ac64f4d685cd15eb25761ea21df1a46b006f1d0864c22187b287f004d72b421ed0a5e933b5a5343f4d55fe5c403ae9fd148b7db81385f4958ff
+src:mesa-$version
+mirrors{
+	https://mesa.freedesktop.org/archive/mesa-$version.tar.xz
+}
+mdeps{
+	expat
+	libc
+	libdrm
+	libxcb
+	libxdamage
+	libxext
+	libxrandr
+	libxshmfence
+	libxxf86vm
+	libz
+	wayland
+	wayland-protocols
+}
