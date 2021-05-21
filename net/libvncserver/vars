@@ -1,0 +1,16 @@
+name:libvncserver
+version:0.9.13
+license:GPL-2.0+
+description:C libraries to easily implement VNC server or client functionality.
+cksum:a856663a9ea17b30a7fb48dd1b123369c1aed00bb4f00be7fcf3484dfdf117bf059d82df39d605a9d15c5574badbce4d3d3d080810031d7fade6440ac842c337
+src:libvncserver-LibVNCServer-$version
+mirrors{
+	https://github.com/LibVNC/libvncserver/archive/LibVNCServer-$version.tar.gz
+}
+mdeps{
+	libc
+	libjpeg-turbo
+	libpng
+	libressl
+	libz
+}

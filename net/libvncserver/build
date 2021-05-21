@@ -1,0 +1,6 @@
+#!/bin/rc
+portmk \
+    -m -DWITH_OPENSSL'='ON \
+    -m -DWITH_GCRYPT'='OFF \
+    -m -DWITH_GNUTLS'='OFF \
+    cmake install
