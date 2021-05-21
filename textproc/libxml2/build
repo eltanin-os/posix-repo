@@ -1,0 +1,2 @@
+#!/bin/rc
+portmk -m --without-python autohell install
