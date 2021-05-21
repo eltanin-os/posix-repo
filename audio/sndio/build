@@ -1,0 +1,10 @@
+#!/bin/rc
+mkutils sed configure -e '194d' -e '195d' # ignore unknown options
+
+portmk -f nobuilddir autohell \
+    CC'='$"CC \
+    CFLAGS'='$"CFLAGS' '$"CPPFLAGS \
+    LDFLAGS'='$"LDFLAGS
+
+portmk make
+portmk make install
