@@ -1,0 +1,14 @@
+name:libdrm
+version:2.4.105
+license:MIT
+description:Userspace interface to kernel DRM services.
+cksum:3b87158b844ad8c33ca805822a4c997553b8788aba7a65aa18c9a57c5ade642f0a6ba14b058b4e0457e0ce8649491d7a6b0e5aec1e20d5b4553ce59b9e453609
+src:drm-libdrm-$version
+mirrors{
+	https://gitlab.freedesktop.org/mesa/drm/-/archive/libdrm-$version/drm-libdrm-$version.tar.gz
+}
+mdeps{
+	libc
+	libpciaccess
+	libpthread-stubs
+}
