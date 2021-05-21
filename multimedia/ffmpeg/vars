@@ -7,6 +7,7 @@ mirrors{
 	http://ffmpeg.org/releases/ffmpeg-$version.tar.xz
 }
 mdeps{
+	bzip2
 	libc
 	libopus
 	libressl
