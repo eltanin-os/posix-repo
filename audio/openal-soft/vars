@@ -7,5 +7,7 @@ mirrors{
 	http://downloads.eltan.in.net/mirrors/openal-soft-$version.tar.gz
 }
 mdeps{
+	alsa-lib
 	libc
+	sndio
 }
