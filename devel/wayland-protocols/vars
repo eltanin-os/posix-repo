@@ -1,0 +1,12 @@
+name:wayland-protocols
+version:1.20
+license:MIT
+description:Protocols and protocol extensions complementing the Wayland core protocol.
+cksum:65eab57b90907b04d4f8e07d29c3a5e0e3d6b93d23902bcd3e0b208aa02a4cb951b9590cd39aa214565a417dbc40f835285f2de4ded1fdca04b0f5137ecad529
+mirrors{
+	https://wayland.freedesktop.org/releases/wayland-protocols-$version.tar.xz
+}
+mdeps{
+	libc
+	wayland
+}
