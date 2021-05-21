@@ -7,6 +7,7 @@ mirrors{
 	http://download.savannah.gnu.org/releases/freetype/freetype-$version.tar.xz
 }
 mdeps{
+	bzip2
 	libc
 	libpng
 	libz
