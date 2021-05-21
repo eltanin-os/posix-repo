@@ -1,0 +1,15 @@
+name:libxkbcommon
+version:1.2.1
+license:MIT
+description:Keyboard handling library.
+cksum:98175f42ca4b41b522763ad8cc104bd889fd651a4a6d9c7b531e4f743ad8b8d1ff041db7baaa8ca7fe9a39878262bcb03063a734b3dd3131f0badbf6f8455157
+mirrors{
+	https://xkbcommon.org/download/libxkbcommon-$version.tar.xz
+}
+mdeps{
+	libc
+	libxcb
+	libxml2
+	wayland
+	wayland-protocols
+}
