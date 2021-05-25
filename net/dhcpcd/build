@@ -1,2 +1,7 @@
 #!/bin/rc
-portmk -f nobuilddir autohell install
+portmk \
+    -f nobuilddir \
+    -m --without-reallocarrray \
+    -m --without-dev \
+    -m --without-udev \
+    autohell install
