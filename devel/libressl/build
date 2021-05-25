@@ -1,3 +1,3 @@
 #!/bin/rc
-if ($static) if (~ *'slibtool'* $LIBTOOL) LIBTOOL=''
+if ($static) if (~ 'slibtool' *$"LIBTOOL*) LIBTOOL=''
 portmk autohell install
