@@ -1,8 +1,8 @@
 name:nano
-version:5.6
+version:5.8
 license:GPL-3+
 description:Enhanced clone of the Pico text editor.
-cksum:10a2ef75e87b02cc1e9c28e9af25de6734b7214dab8b9a399b88b954abeb31066322777ea0cf7d1631f74bd375c12cec979ada33acb32171d7b1f34d4242e3e4
+cksum:730eb4f0ec5d0fc9f70b99ac5697fd47afe6fb0359a5605f81fe649f5fda291a3af336b2d886f868d98ad2f21b136c6d30dc54cb065d672a78b532d8e45f6180
 mirrors{
 	https://www.nano-editor.org/dist/v5/nano-$version.tar.xz
 }
