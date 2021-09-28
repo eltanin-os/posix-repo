@@ -1,3 +1,0 @@
-#!/bin/rc
-LIBS='-lcurses -lterminfo'
-portmk -m --disable-nasm autohell install

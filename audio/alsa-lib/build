@@ -1,5 +1,0 @@
-#!/bin/rc
-portmk \
-    -m --disable-python \
-    -m --without-versioned \
-    autohell install

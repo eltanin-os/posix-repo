@@ -1,2 +1,0 @@
-#!/bin/rc
-portmk -m -Denable-docs'='false meson install
