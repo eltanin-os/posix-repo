@@ -2,7 +2,7 @@ name:nasm
 version:2.15.05
 license:BSD-2
 description:80x86 assembler designed for portability and modularity.
-cksum:e571daaed37bc3e2943059d58839c8fcf91f3db9a864063a29116c90f3cd53821fd8896df57ff56ee57300d1d30e65c8c075ca154fb2cf1db911ac359e8b975c
+cksum:5f05a399f86075a2b7555bc4ff68848862c62574bb2d6928c03ad9af2fb1121049a2808b5121bc7c29c3190daf959dc385f527fc4c1654bf7109c70bb088d9d6
 mirrors{
 	https://www.nasm.us/pub/nasm/releasebuilds/$version/nasm-$version.tar.xz
 }

@@ -2,9 +2,9 @@ name:dhcpcd
 version:9.4.0
 license:BSD-2
 description:RFC2131 compliant DHCP client daemon.
-cksum:8cd831c7a9616566d722641304158441a91c5285f1f3a1ec9f6f356cbae616d17bf377730962d8e8c806e02c6486d84e25fd1f32bc94bfaf42a93ae49898c8f7
+cksum:126175d754b503456f13aae928297c843b6a9f22181076ced82f03a635edd8e3cbefa87eace8b7a49403041015d9268b18c16df20cbfea97ff6d47d9380f6cc8
 mirrors{
-	http://downloads.eltan.in.net/mirrors/dhcpcd-9.4.0.tar.xz
+	http://downloads.eltan.in.net/mirrors/dhcpcd-$version.tar.xz
 }
 mdeps{
 	libc

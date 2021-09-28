@@ -1,7 +1,2 @@
 #!/bin/rc
-if (!$static) {
-	portmk -f replace make -f Makefile-libbz2_so
-	mkutils install lib libbz2.so.$version
-	mkutils install lib -l libbz2.so.$version libbz2.so
-}
 portmk -f replace make install

@@ -1,8 +1,8 @@
 name:rc
 version:git-50b729e65d6f250ab9ab72487bd3c3d7c674e1fc
 license:lucent-v1.02
-description:An alternative implementation of the plan 9 rc shell
-cksum:f6dabb46eb1fb62b3bb9727975d6d287e1122a178f276d9139714d2aff5015baa26790cee18fa43a19573340226d4a9c341c3dff00d99b222651741ae9887fe5
+description:Plan 9 rc shell.
+cksum:d5ea5888570d7c7170fe3499f54e8428c902b330055109ffbd205d2ce9aa66122be822b32f2eb16b97b64a9dcde1a066375e04e6b0b60024e9ca4413c130bb9c
 patches{
 	rc-makefile.patch
 	rc-move_rcmain_to_etc.patch

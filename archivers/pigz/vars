@@ -2,7 +2,7 @@ name:pigz
 version:2.6
 license:zlib
 description:Parallel implementation of the gzip file compressor.
-cksum:daf9de23870bb30931196df14f646c9225d1d2422f4e2ab36ea4dca867af721a889733d7f11d26519ebba2c00a21bcf7ae77c350302ad00e6a09eefb63b1cccd
+cksum:cff4bf4cdfd2f84e9ff330e0671f6a541bc05c7d005c5a8750715adbef2b9b93e137146b969f10032041d6269fb2444e7fe4d33fabf84f12173b5f4a24eeb9c8
 mirrors{
 	http://zlib.net/pigz/pigz-$version.tar.gz
 }
