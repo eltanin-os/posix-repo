@@ -1,8 +1,8 @@
 name:bison
-version:3.7.5
+version:3.8
 license:GPL-3
 description:The GNU general-purpose parser generator.
-cksum:b058a843d8da47fc360a3a7710f70b95a4cdc10a45853edcff18d4d921b12e3dba14387b9371ecfe96a87e9bd490893bfad0acf281a3d5044d6103238ab0c048
+cksum:64628adddaf5ef337852a4d2d26aa410fd38442292c3006edacb5e9627264546997b675fce9dbb45bcb6a68d4ee1cfd6e015960b6a8598ae16f639a8def88d11
 mirrors{
 	https://ftp.gnu.org/gnu/bison/bison-$version.tar.lz
 }
