@@ -1,8 +1,8 @@
 name:m4
-version:1.4.18
+version:1.4.19
 license:GPL-3+
 description:A general-purpose macro processor.
-cksum:2bac470a9c1479fd21e06a6ccb99905be5536425a77961cd73f5a657f4dbce916e14364eafafbd59aa1cee59376d33850abacbbb6bbbc19fe909593df1673940
+cksum:a40318b906600b4da83c9f67007b5da6b0c12ad0e197a52e8a88157f144212ec7aaa5fdf602ab741ca86ae44278a5edcb25ea735685821b0074ac88ad9c2d6e7
 mirrors{
 	https://ftp.gnu.org/gnu/m4/m4-$version.tar.xz
 }
