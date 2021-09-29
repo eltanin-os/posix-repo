@@ -1,8 +1,8 @@
 name:openssh
-version:8.4p1
+version:8.7p1
 license:BSD-2 ISC
 description:Open Source Secure shell client and server.
-cksum:efad74c37957b96eaf2d3b5bac936c2080e45cf4544c942b1aa7cfab3037327f4bb86e16b42a262eaf6619cffa2030364caf92c3beba4815bddeb83f7b647fcb
+cksum:671db6a7095cd54ea7d5a828f620f0394423c80639688fb6a698c11a5684380eb7e1be5d5656ded5ed534b8d9c00cca0f189b86e381e141cb883bd9b806ba45a
 mirrors{
 	https://cdn.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-$version.tar.gz
 }
