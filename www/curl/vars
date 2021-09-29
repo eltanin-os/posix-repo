@@ -1,8 +1,8 @@
 name:curl
-version:7.75.0
+version:7.79.1
 license:MIT
 description:A tool for transferring data from URLs.
-cksum:e54a05ca24ed2f605287e79e7f6e70a559e255a75570d907c34ffebfc287eec9724f1ec65d6563bdc55121f013449ee521809e95509bf51f31d62b742a259e8b
+cksum:28b4b8205160328737df0d1f27e36a3d2d3e38792bdea4ebeb7464b881af8bb880cdd527f6c7edcaafd333ae5d39e636afccefca2cb58df7fbf505a95622ac64
 patches{
 	curl-tools_check.patch
 }

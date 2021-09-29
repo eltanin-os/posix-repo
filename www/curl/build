@@ -1,2 +1,2 @@
 #!/bin/rc
-portmk autohell install
+portmk -m --with-openssl autohell install
