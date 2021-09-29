@@ -1,8 +1,8 @@
 name:skalibs
-version:2.9.2.1
+version:2.11.0.0
 license:ISC
 description:The skarnet.org C system programming library.
-cksum:649f9bb077af653b69da17b1c5875e53cd08c03c6d1916e0b8e9421dea5db033a017aecfc38096d8ee56179368be713ce53f8984233c38800f544451328ba936
+cksum:2f94a9b223d35c53084d437f6170052c2f04e2dd873b8d7010d3e38e7937ea13c4c0617b7f68ba0817009b100d1a97b145dd9ba434b181360fc547aa2441529f
 patches{
 	skalibs-vars.patch
 }
