@@ -1,15 +1,8 @@
 name:bash
-version:5.1
+version:5.1.8
 license:GPL-3+
 description:The GNU Bourne Again shell.
-cksum:5df6f36dd03b1587c5a826985be29d6532931ed20d3b1cba506f15cb7538b2128aa7b6f186e7a8b867088dbaa60cc233c619a047ff46f271e1c6d3ebca905c5e
-patch-level:0
-patches{
-	bash51-001.patch
-	bash51-002.patch
-	bash51-003.patch
-	bash51-004.patch
-}
+cksum:eabba84907c6c1332970ab0b20e1877adabaf2faacf65e220def94120ab7de3b3fb8e98cbf49c35435653317c3a812b5c76c4a348992c5e9b4db3b69987d8d96
 mirrors{
 	https://ftp.gnu.org/gnu/bash/bash-$version.tar.gz
 }
