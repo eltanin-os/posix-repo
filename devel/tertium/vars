@@ -3,6 +3,9 @@ version:0.10.0
 license:UNLICENSE
 description:Eltanin system programming library.
 cksum:512d8dab63562d84a6adb8a887afc27dc87c704d8900d891320a464b0f3b0a59e10eaf053395a578108e3726ceb877c6480f23aafa4304dff0f5a618e6ccb655
+patches{
+	tertium-master_fixes.patch
+}
 mirrors{
 	http://downloads.eltan.in.net/files/tertium/tertium-$version.tar.lz
 }
