@@ -3,6 +3,9 @@ version:0.8.0
 license:UNLICENSE
 description:A simple package manager.
 cksum:ccacb76c349711c6d7b1f52e4ce2993264fbe5625a9751178799bff59f7ad83f19cb9e4a7df98a8eef079a79d569f680af27844cd125ea990a66afe1e28b50b4
+patches{
+	venus-master_fixes.patch
+}
 mirrors{
 	http://downloads.eltan.in.net/files/venus/venus-$version.tar.lz
 }
