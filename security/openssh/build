@@ -1,2 +1,4 @@
 #!/bin/rc
-portmk -m --with-mantype'='man autohell install-nokeys
+portmk -f nobuilddir -m --with-mantype'='man autohell
+portmk make
+portmk make install-nokeys
