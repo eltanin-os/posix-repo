@@ -1,11 +1,10 @@
 name:bc
-version:5.0.2
+version:5.1.1
 license:BSD-2
 description:An implementation of Unix dc and POSIX bc with GNU and BSD extensions.
-cksum:b05ba228ebe62a85e885487fd16f2695fa2bf3673ce019a7b1201528d9c9757edc42ee3b0c5b72d11ef8e4e6a61b28f3fb073cb9d1274584dd9bcd0b2151f1e4
-src:$name
+cksum:c4f7bd15e0c72afdcb1fe8f58459a01d6b6264397376e04f46eeed3441766880ab325d73f6ec4633b81aa1e20306749d9ef1e8ffe885da369e06dcb9dbc4cb41
 mirrors{
-	https://git.yzena.com/gavin/bc/archive/$version.tar.gz
+	https://github.com/gavinhoward/bc/releases/download/$version/bc-$version.tar.xz
 }
 mdeps{
 	libc
