@@ -2,7 +2,10 @@
 cd wpa_supplicant
 cp defconfig .config
 mkutils sed .config \
-    -e 's/#CONFIG_WPS=y/CONFIG_WPS=y/' \
-    -e 's/#CONFIG_LIBNL20=y/CONFIG_LIBNL20=y/'
-CPPFLAGS=($CPPFLAGS -DLIBNL1_COMPAT)
+    -e 's/#\(CONFIG_LIBNL20\)=y/\1=y/' \
+    -e 's/\(CONFIG_LIBNL32\)=y/#\1/' \
+    -e 's/\(CONFIG_CTRL_IFACE_DBUS\)=y/#\1/' \
+    -e 's/\(CONFIG_CTRL_IFACE_DBUS_NEW\)=y/#\1/' \
+    -e 's/\(CONFIG_CTRL_IFACE_DBUS_INTRO\)=y/#\1/'
+CPPFLAGS=($CPPFLAGS -DLIBNL1_COMPAT -D_GNU_SOURCE)
 portmk -f nocppflags -m CONFIG_LIBNL_TINY'='y make install
