@@ -1,10 +1,10 @@
 name:libnl-tiny
-version:1.0.1
+version:git-4225e93
 license:GPL-2
 description:A tiny replacement for libnl.
-cksum:7d7543f42170b0ce974ad530fa22f0cc5edb707b8cc8771a0026518388b6d3e892c9263952a2f8e1cec3ad72b974a89d52fa20411c498b02cbc31d32e571d9b7
+cksum:0bd62a433baf3480030e9d18dc712e03b55bd09a4e779dacde2b3dd35bca86c4a0ef11aed59f7b6fc6fa8eeaeaf8546428991cf631b99131bf3616c9716ca671
 mirrors{
-	http://ftp.barfooze.de/pub/sabotage/tarballs/libnl-tiny-$version.tar.xz
+	http://downloads.eltan.in.net/mirrors/libnl-tiny-$version.tar.lz
 }
 mdeps{
 	libc
