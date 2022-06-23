@@ -1,0 +1,3 @@
+#!/bin/rc
+true > config.rc
+portmk -f envtolist redo install
