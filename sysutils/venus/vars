@@ -1,13 +1,10 @@
 name:venus
-version:0.8.0
+version:0.1.0
 license:UNLICENSE
 description:A simple package manager.
-cksum:ccacb76c349711c6d7b1f52e4ce2993264fbe5625a9751178799bff59f7ad83f19cb9e4a7df98a8eef079a79d569f680af27844cd125ea990a66afe1e28b50b4
-patches{
-	venus-master_fixes.patch
-}
+cksum:a2300d6fff7587ed6026b151971b716cc107d887fb1977d2af22c7f3189df7a2322adf0e43efc710472bb6117e5d837e409f928303b72e4739c2cbe1d3f9bd38
 mirrors{
-	http://downloads.eltan.in.net/files/venus/venus-$version.tar.lz
+	https://downloads.eltaninos.org/repo/sources/venus-$version.tar.lz
 }
 mdeps{
 	tertium
