@@ -1,8 +1,8 @@
 name:boehm-gc
-version:8.0.4
+version:8.0.6
 license:MIT
 description:A garbage collector for C and C++.
-cksum:5f821912f8a5ed241191c5b0cfa060b47b7cc3c6ea47dba88b4b751dd4c1a83dba7435c3ab8b0ba0334da16f4045916cf58550d2bac219b58dea9f7811f3085e
+cksum:34a07b3dac4e77e5693b5f323f63e0e72c7f98c90e668154d261f81e93eaa58259187f5fe0aa756d9a5bab97e7aec3c519f561074831d33922aa1cffcc79de48
 src:gc-$version
 mirrors{
 	https://www.hboehm.info/gc/gc_source/gc-$version.tar.gz
