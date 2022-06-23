@@ -1,2 +1,4 @@
 #!/bin/rc
-portmk autohell install
+portmk -f nobuilddir autohell
+portmk make
+portmk make install

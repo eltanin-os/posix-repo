@@ -1,9 +1,9 @@
 name:w3m
-version:0.5.3+git20210102
+version:0.5.3+git20220429
 license:MIT UCD
 description:WWW browsable pager.
-cksum:73d262fe7563b6787ace945e86982c860f67330fb5cd3a9714a02c55f8a7aeb08f57fc4d28fb7ddb03f442edb35494771aaf88d3d15191db08bfc89f488ffdb5
-src:w3m-0.5.3-git20210102
+cksum:a29716ec7c7607951bc41ef4888f2f5e477583c3b828aaf860a3df9424d12400dbc93f306a2936326e4f6662397011e12066f503ba9906c8724901ff124e872a
+src:w3m-0.5.3-git20220429
 patches{
 	w3m-remove_hardcheck.patch
 }
@@ -15,4 +15,5 @@ mdeps{
 	ncurses
 	libc
 	libressl
+	libz
 }
