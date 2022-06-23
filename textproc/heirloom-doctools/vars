@@ -6,6 +6,10 @@ cksum:a093a38a456a93c25c36567b6a2afa2cb7b52d9ba82ec5d089f29a3c0a4125689988456137
 mirrors{
 	https://github.com/n-t-roff/heirloom-doctools/releases/download/$version/heirloom-doctools-$version.tar.bz2
 }
+hdeps{
+	byacc
+	flex
+}
 mdeps{
 	libc
 }
