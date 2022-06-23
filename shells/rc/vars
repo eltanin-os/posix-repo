@@ -1,14 +1,14 @@
 name:rc
-version:git-50b729e
+version:20191023
 license:lucent-v1.02
 description:Plan 9 rc shell.
-cksum:341a6530d14316611379d37aa6bfc01a28483fca13bb07f0c714620dc2aac7cf85b5de5695f54a08fb389fb47daa99f025a8bb3c102c0f8a75f7cad10ec72a3a
+cksum:64aa1906a5ea972daa5132afef167fef354690ccdb5b377ec148ecb3cd118366e2625eb5c254a536c19c6f8d61c1b2885544ca5774e399dae52e1b97108098d5
 patches{
 	rc-makefile.patch
 	rc-move_rcmain_to_etc.patch
 }
 mirrors{
-	http://downloads.eltan.in.net/mirrors/rc-$version.tar.lz
+	http://downloads.eltaninos.org/repo/sources/rc-$version.tar.lz
 }
 mdeps{
 	libc
