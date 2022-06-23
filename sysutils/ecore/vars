@@ -1,10 +1,10 @@
 name:ecore
-version:0.9.0
+version:0.1.0
 license:UNLICENSE
 description:Eltanin core utilities.
-cksum:767b18d245eb00c8c9fe3a42d1281470595ffccdbe8fdf7dfe162f4ba95604ceb9f8e00ce27689a6e50febb4b5d3c0f8e12d0269d9adde5a552bad9ab52dca95
+cksum:234d1674b89660993ad9150bbd33d465493a7f7e5cb4901506980f9922199ab4dc10af37ea51d5260f474b63eb88c2c50d2a189e5b54db4fa0f548314c047ce2
 mirrors{
-	http://downloads.eltan.in.net/files/ecore/ecore-$version.tar.lz
+	http://downloads.eltaninos.org/repo/sources/ecore-$version.tar.lz
 }
 mdeps{
 	tertium
