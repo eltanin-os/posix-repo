@@ -1,11 +1,8 @@
 name:tertium
-version:0.10.0
+version:0.1.0
 license:UNLICENSE
 description:Eltanin system programming library.
-cksum:512d8dab63562d84a6adb8a887afc27dc87c704d8900d891320a464b0f3b0a59e10eaf053395a578108e3726ceb877c6480f23aafa4304dff0f5a618e6ccb655
-patches{
-	tertium-master_fixes.patch
-}
+cksum:79af10bfbd6b01161923f0e0f49ebcb4e2416077fc8ccd4cd63b95672b617d568abcf16eb553bac76b0676f9c4f8b833d41d3d51c2d5a719a00a00853cd83f9e
 mirrors{
-	http://downloads.eltan.in.net/files/tertium/tertium-$version.tar.lz
+	http://downloads.eltaninos.org/repo/sources/tertium-$version.tar.lz
 }
