@@ -1,8 +1,8 @@
 name:bc
-version:5.1.1
+version:5.3.3
 license:BSD-2
 description:An implementation of Unix dc and POSIX bc with GNU and BSD extensions.
-cksum:c4f7bd15e0c72afdcb1fe8f58459a01d6b6264397376e04f46eeed3441766880ab325d73f6ec4633b81aa1e20306749d9ef1e8ffe885da369e06dcb9dbc4cb41
+cksum:a5803e6ecd4568228f0e282856731a25706f1d0e3dcfb6e939bd2e7deeedb3d046c415efb9e7ffce0a6d401a6cc79417a60900a9aa4eb0cb3530a8b8443f6be6
 mirrors{
 	https://github.com/gavinhoward/bc/releases/download/$version/bc-$version.tar.xz
 }
