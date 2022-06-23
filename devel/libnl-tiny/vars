@@ -1,10 +1,10 @@
 name:libnl-tiny
-version:git-4225e93
+version:20181203
 license:GPL-2
 description:A tiny replacement for libnl.
-cksum:0bd62a433baf3480030e9d18dc712e03b55bd09a4e779dacde2b3dd35bca86c4a0ef11aed59f7b6fc6fa8eeaeaf8546428991cf631b99131bf3616c9716ca671
+cksum:6a5eee9043f2391a1528c2bb53062a5f19fb2ce4fc02ec436d0e093c505c43596a1c37578c73031c5713ef61a9c5418a881ae84608224ea23160e45754592eca
 mirrors{
-	http://downloads.eltan.in.net/mirrors/libnl-tiny-$version.tar.lz
+	https://downloads.eltaninos.org/repo/sources/libnl-tiny-$version.tar.lz
 }
 mdeps{
 	libc
