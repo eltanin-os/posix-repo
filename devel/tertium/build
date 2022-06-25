@@ -1,5 +1,5 @@
 #!/bin/rc
-true > config.rc
+unlink config.rc
 CFLAGS=$"CFLAGS' -fno-builtin'
 OSNAME=$"PORTSYS_HOSTOS
 OBJTYPE=$"PORTSYS_HOSTARCH
