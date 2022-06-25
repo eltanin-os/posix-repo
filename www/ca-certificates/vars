@@ -2,7 +2,7 @@ name:ca-certificates
 version:20211016
 license:GPL-2+ MPL-2
 description:Common CA certificates for SSL/TLS.
-cksum:855d04b4c6b150a922f2d60751932c9c219eb65bfdfd0e24ceb51ed52689244b4c922c6afc88478f18798e8c5c7da8c2ca139f8b3b40c7d633b049319403dcd6
+cksum:491e0ec322b61efea351a80f6c517b5f7961f89ba4140f2ad58cbaa9bfccc5452b5cddcf5784ea63b91a0be4b2f96c031abcc3d586cbc1a81e47577b52807342
 mirrors{
 	http://downloads.eltaninos.org/repo/sources/ca-certificates-$version.tar.lz
 }
